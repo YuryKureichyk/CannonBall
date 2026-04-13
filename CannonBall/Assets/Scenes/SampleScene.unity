@@ -587,7 +587,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameAssets.Scripts.CannonControl.Reload
   _slider: {fileID: 832999739}
-  _reload: 2
 --- !u!4 &815162452
 Transform:
   m_ObjectHideFlags: 0
@@ -1905,6 +1904,10 @@ PrefabInstance:
       propertyPath: _ballPool
       value: 
       objectReference: {fileID: 2011183743}
+    - target: {fileID: 6579630311814104426, guid: 85bf9fda246d9684985cea17ca174d4f, type: 3}
+      propertyPath: _reloadDuration
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6579630311814104426, guid: 85bf9fda246d9684985cea17ca174d4f, type: 3}
       propertyPath: _cannonAnimation
       value: 

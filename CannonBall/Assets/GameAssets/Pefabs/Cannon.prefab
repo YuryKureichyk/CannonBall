@@ -63,7 +63,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3149628278442422613}
+  m_Father: {fileID: 1571023791915019276}
   m_LocalEulerAnglesHint: {x: 15.23, y: -17.147, z: -0.715}
 --- !u!20 &7458659771636661226
 Camera:
@@ -381,7 +381,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3649021784499695010}
-  - {fileID: 2724428558552138168}
   m_Father: {fileID: 1571023791915019276}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5094361942559816632
@@ -448,6 +447,7 @@ Transform:
   m_Children:
   - {fileID: 8772838903502375415}
   - {fileID: 3149628278442422613}
+  - {fileID: 2724428558552138168}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6579630311814104426
@@ -466,3 +466,6 @@ MonoBehaviour:
   _ballPool: {fileID: 0}
   _input: {fileID: 0}
   _spawnPoint: {fileID: 5340762291459925035}
+  _reload: {fileID: 0}
+  _cannonAnimation: {fileID: 0}
+  _reloadDuration: 1

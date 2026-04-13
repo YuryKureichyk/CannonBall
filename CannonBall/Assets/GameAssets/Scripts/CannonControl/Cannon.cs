@@ -14,6 +14,7 @@ namespace GameAssets.Scripts.CannonControl
         [SerializeField] private Transform _spawnPoint;
         [SerializeField] private Reload _reload;
         [SerializeField] private CannonAnimation _cannonAnimation;
+        [SerializeField] private float _reloadDuration = 1f;
 
         private  float _nextShot;
         private void OnEnable()
@@ -31,7 +32,7 @@ namespace GameAssets.Scripts.CannonControl
             if (_reload.IsReady)
             {
                 Shot();
-                _reload.ResetReload();
+                _reload.ResetReload(_reloadDuration);
             }
         }
 
